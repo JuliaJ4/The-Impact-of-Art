@@ -163,7 +163,7 @@ function setup() {
   button4.mousePressed(changePoem);
   
    //webpage 
-  overlay = createDiv('Welcome!<br>This is a study to see how people respond to different mediums of art. Please use the buttons to start viewing, and take the survey after you are finished with each individual piece.  ');
+  overlay = createDiv('Welcome!<br>This is a study to see how people respond to different mediums of art. Please use the buttons to start viewing, and take the survey after you are finished with each individual piece. Click anywhere on the screen to get started!');
   overlay.position(0,0);
   overlay.class('overlay');
   overlay.mousePressed(startPage);
